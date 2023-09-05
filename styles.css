@@ -133,7 +133,7 @@ nav ul li a::after{
     transition: 0.5s;
 }
 
-.active-link:hover::after{
+.tab-links.active:hover::after{
     width: 50%;
 }
 
@@ -149,6 +149,6 @@ nav ul li a::after{
 .tab-contents {
     display: none;
 }
-.tab-contents.active-tab{
+.tab-contents.active{
     display: block;
 }
